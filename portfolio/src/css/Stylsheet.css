@@ -1,0 +1,115 @@
+html {scroll-behavior: smooth;}
+body{
+    color: whitesmoke;
+    background: #290066;
+}
+
+.topnav{
+    font-size: 3vw;
+    text-align: center;
+    background-color: #9E020C;
+    border-style: outset;
+    border-color: #4d0000;
+    border-width: .5vw;
+    margin: -10px -10px 0px -10px;
+    position: fixed;
+    width: 99%;
+}
+
+.topnav a{
+    color: whitesmoke;
+}
+
+.topnav a:hover{
+    color: #1a75ff;
+}
+
+.begin{
+    background-image: url("img/skyline_RomainTrystram_05.jpg");
+    /* Background by Romain Trystram on pinterest */
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0px -10px 0px -10px;
+    height: 25vw;
+    font-family: 'Kumar One', cursive;
+    text-align: center;
+    font-size: 90%;
+    padding-top: 4vw;
+}
+.begin h1{
+    background: -webkit-linear-gradient(#eee, #8c8c8c);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.begin h3{
+    background: -webkit-linear-gradient(#eee, #8c8c8c);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.info{
+    font-family: 'Titillium Web', serif;
+    font-size: 1.25vw;
+    color: #d9d9d9;
+    margin: 0px 6vw 0px 0px;
+}
+
+.info h1{
+    color: #d9d9d9;
+}
+.info img{
+    float: left;
+    margin: 0px 3vw 0px 3vw;
+    border: outset;
+    border-width: 4px;
+    border-color: #064b73;
+    width: 10vw;
+    height: 10vw;
+    
+}
+.info h1{
+    text-align: center;
+}
+.skills{
+    background-color: #6b0029;
+    font-size: 1.75vw;
+    color: #d9d9d9;
+    text-align: center;
+    margin-left: -2vw;
+    margin-right:-2vw;
+    /*margin-left: -50px;*/
+}
+.skills a{
+    color: #d9d9d9;
+}
+.skills a:hover{
+    color: #1a75ff;
+}
+.column {
+    float: left;
+    width: 35%;
+    padding: 4vw;
+    text-align: center;
+}
+.row::after{
+    content: " ";
+    clear: both;
+    display: table;
+}
+.contact img{
+    width: 10vw;
+    height: 10vw;
+}
+.contact{
+    text-align: center;
+    font-family:'Titillium Web', serif;
+    color: #d9d9d9;
+}
+
+@media screen and (max-width: 500px){
+    .column{
+        width: 100%;
+    }
+}

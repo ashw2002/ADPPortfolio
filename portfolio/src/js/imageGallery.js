@@ -11,19 +11,19 @@ class imageGallery extends React.Component {
 
   render() {
     if (this.state.liked == 2) {
-      return el('button', {onClick: () => this.setState({ liked: 3 }) },
-      React.createElement('img', {src: "../css/img/barako.png", alt: 'Barako'}));
+      return el('button', {onClick: () => this.setState({ liked: 3 }), class: 'gallery'},
+      React.createElement('img', {src: "img/barako.png", alt: 'Barako'}));
     }
 
     if (this.state.liked == 3) {
-      return el('button', {onClick: () => this.setState({ liked: 1 }) },
-      React.createElement('img', {src: '../css/img/mainarea.png', alt: 'Main Area'}));
+      return el('button', {onClick: () => this.setState({ liked: 1 }), class: 'gallery' },
+      React.createElement('img', {src: 'img/mainarea.png', alt: 'Main Area'}));
     }
 
     return el(
       'button',
-      { onClick: () => this.setState({ liked: 2 }) },
-      React.createElement('img', {src: '../css/img/plantspider.png', alt: 'Plant Spider'}));
+      { onClick: () => this.setState({ liked: 2 }), class: 'gallery' },
+      React.createElement('img', {src: 'img/plantspider.png', alt: 'Plant Spider'}));
   }
 }
 

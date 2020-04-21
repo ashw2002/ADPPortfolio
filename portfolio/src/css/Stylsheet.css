@@ -30,7 +30,7 @@ body{
 }
 
 .begin{
-    background-image: url("img/skyline_RomainTrystram_05.jpg");
+    background-image: url("../img/skyline_RomainTrystram_05.jpg");
     /* Background by Romain Trystram on pinterest */
     background-repeat: repeat;
     background-attachment: fixed;
@@ -47,19 +47,22 @@ body{
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-size: 3vw;
 }
 .begin h3{
     background: -webkit-linear-gradient(#eee, #8c8c8c);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-size: 2vw;
 }
 .info{
     padding-top: 4vw;
     font-family: 'Titillium Web', serif;
-    font-size: 1.25vw;
+    font-size: 1.5vw;
     color: #d9d9d9;
     margin: 0px 6vw 0px 0px;
+    text-align: center;
 }
 
 .info h1{
@@ -165,4 +168,16 @@ body{
   text-align: right;
   font-size: 16;
   font-family: Arial
+}
+
+.gallery {
+    width: 60vw;
+    height: 42vw;
+    align-items: center;
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
+.gallery img{
+    width: 58vw;
+    height: 40vw;
 }
